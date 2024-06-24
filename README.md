@@ -1,6 +1,7 @@
 ## Scaffolding for Moderization: Templates for Creating Project Deployments
 
-- Leverage OpenTofu [Providers](https://opentofu.org/docs/language/providers/) for creating infrastructure skeletons for extensibility.
+- **Update**: Leverage Terraform providers until OpenTofu [Providers](https://opentofu.org/docs/language/providers/) for creating infrastructure skeletons for extensibility are available. Awaiting legal action messing with the fork after sale to IBM. 
+
 * Create Repos [Github](https://registry.terraform.io/providers/integrations/github/latest/docs) For code and docs. The Ansible module is dope and also does provisioning and even better management of repos. Prior versions of terraform Github provider were buggy. 
 - Use MkDocs or Jekyll or Hugo to spruce up the aestetiucs. I like ReadTheDoc themes. Use GitHub Actions to build theh static site and deploy to gh-pages branch and use repo [pages link](https://michaelcolletti.github.io/TerraformYourGitRepo/)
 * Enterprise: Create Workflow in [Azure DevOps](https://registry.terraform.io/providers/microsoft/azuredevops/0.2.1)
