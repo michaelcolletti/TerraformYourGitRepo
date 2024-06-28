@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="For Creating Documentation using Github" /><meta name="author" content="Michael Colletti" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Michael Colletti</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Home";
+        var mkdocs_page_input_path = "README.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/rust.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> Michael Colletti
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="" href="../README.md">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="docs/">Docs</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="project/">Project</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">Michael Colletti</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Home</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/michaelcolletti/TerraformYourGitRepo?query=/docs/README.md">Edit on RepoFab</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="scaffolding-for-moderization-templates-for-creating-project-deployments">Scaffolding for Moderization: Templates for Creating Project Deployments</h2>
+<ul>
+<li>Leverage OpenTofu <a href="https://opentofu.org/docs/language/providers/">Providers</a> for creating skeletons for extensibility</li>
+<li>Create Repos <a href="https://registry.terraform.io/providers/integrations/github/latest/docs">Github</a> For code and docs. MkDocs Jekyll. This could be GitLab as well) </li>
+<li>
+<p>Create Workflow in <a href="https://registry.terraform.io/providers/microsoft/azuredevops/0.2.1">Azure DevOps</a></p>
+</li>
+<li>
+<p>Create Collaboration Spaces [MS Teams Creation] Workflow and event based use WebHooks to minimize human comms. Start with DRY HCL</p>
+</li>
+<li>Sharepoint for docs and collaboration:  Modules, Providers or can be created from prompt or GPTScript</li>
+<li>Planner (create SME informed templates): Can be created from prompt</li>
+</ul>
+<h3 id="core-infrastructure">Core Infrastructure</h3>
+<ul>
+<li><a href="https://registry.terraform.io/providers/hashicorp/consul/latest/docs">Azure</a></li>
+<li><a href="https://registry.terraform.io/providers/hashicorp/aws/latest">AWS</a></li>
+<li><a href="https://registry.terraform.io/providers/hashicorp/aws/latest">Kubernetes</a></li>
+</ul>
+<h3 id="governance-and-service-discovery">Governance and Service Discovery</h3>
+<ul>
+<li><a href="https://registry.terraform.io/providers/hashicorp/boundary/latest">Boundary - Policy as Code</a></li>
+<li><a href="https://registry.terraform.io/providers/hashicorp/consul/latest/docs">Consul - Service Discovery</a></li>
+</ul>
+<h3 id="additionals">Additionals</h3>
+<ul>
+<li><a href="https://registry.terraform.io/modules/hendrixroa/apigateway-provision/aws/latest">OpenAPI Swagger</a></li>
+</ul>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Creative Possibilities Inc. 2024</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/michaelcolletti/TerraformYourGitRepo" class="fa fa-code-fork" style="color: #fcfcfc"> RepoFab</a>
+        </span>
+    
+    
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.6.0
+Build Date UTC : 2024-06-28 12:03:48.023400+00:00
+-->
